@@ -5,13 +5,13 @@ import CountactUs from './components/CountactUs/CountactUs'
 import CreativSpeakersComponent from './components/Creative Speakers/CreativSpeakers'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 import OverView from './components/NavbarHome/OverView'
-import OurPrograms from './components/Our programs'
 import OurSponsorsHome from './components/Our Sponsors/OurSponsorsHome'
+import OurPrograms from './components/Our programs'
 import Register from './components/Register'
-import Venue from './components/venue/Venue'
 import WatchVideo from './components/Watch Video'
+import Venue from './components/venue/Venue'
 
 function Home() {
     return (

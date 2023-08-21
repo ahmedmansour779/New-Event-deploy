@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 import theme from "../../../../config";
 
 export const NavbarWrapper = styled("section")`
@@ -33,8 +34,8 @@ export const Event = styled("span")`
     label: Event;
     color: ${theme.primary};
 `
-export const Link = styled("a")`
-    label: Link;
+export const LinkAHref = styled(Link)`
+    label: LinkAHref;
     color: ${theme.textBackground};
     font-size: 1.1rem;
     text-decoration: none;

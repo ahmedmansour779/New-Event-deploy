@@ -4,7 +4,7 @@ import { ButtonDownload, ButtonSend, CountactUsForm, CountactUsText, Details, H2
 export default function CountactUs() {
     return (
         <>
-            <WrabberCountactUs>
+            <WrabberCountactUs id='contact'>
                 <div className='container-main-project'>
                     <WrabberCountactUsInside>
                         <CountactUsText className='CountactUsText'>

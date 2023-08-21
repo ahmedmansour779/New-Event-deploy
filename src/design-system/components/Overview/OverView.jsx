@@ -5,7 +5,7 @@ import { Description, OverviewWrapper, Title } from "./Styles";
 export default function OverView({ icon, title, describtion }) {
     return (
         <>
-            <div className="container-main-project">
+            <div className="container-main-project" id="over-view">
                 <OverviewWrapper>
                     <div>
                         <FontAwesomeIcon size="2xl" color="#f2545f" icon={icon} />

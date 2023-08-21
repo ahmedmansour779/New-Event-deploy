@@ -3,7 +3,7 @@ import { Details, H2, P, WrabberVenue } from './style'
 
 export default function Venue() {
     return (
-        <WrabberVenue>
+        <WrabberVenue id='venue'>
             <div className='container-main-project'>
                 <H2>Venue</H2>
                 <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia culpa aspernatur consequuntur error, commodi voluptate totam est eligendi esse sit atque ducimus dolorum beatae voluptatum.</P>

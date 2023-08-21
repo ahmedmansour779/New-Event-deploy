@@ -12,7 +12,7 @@ import {
 function CreativSpeakersComponent() {
     return (
         <>
-            <CreativSpeakersWrapper>
+            <CreativSpeakersWrapper id='speakers'>
                 <div style={{ gap: "2rem", }} className='container-main-project'>
                     <HeaderSpeakersWrapper>
                         <TitleSpeakersWrapper><Speakers>Creative</Speakers> Speakers</TitleSpeakersWrapper>

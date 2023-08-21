@@ -3,7 +3,7 @@ import { ButtonRegister, Description, InputRegister, RegisterContainer, Register
 
 export default function RegisterHere() {
     return (
-        <RegisterHereWrabber>
+        <RegisterHereWrabber id='register'>
             <div className='container-main-project'>
                 <RegisterContainer>
                     <RegisterText>

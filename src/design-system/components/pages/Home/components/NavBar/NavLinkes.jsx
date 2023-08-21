@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from './style'
+import { LinkAHref } from './style'
 
 function NavLinkes({ navLink, navText, color }) {
     return (
         <>
-            <Link style={{ color: color }} href={navLink}>{navText}</Link>
+            <LinkAHref style={{ color: color }} to={navLink}>
+                {navText}
+            </LinkAHref>
         </>
     )
 }
