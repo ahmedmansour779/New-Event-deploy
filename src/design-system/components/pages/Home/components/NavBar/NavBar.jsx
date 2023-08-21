@@ -17,7 +17,7 @@ function NavBar() {
             <div className='container-main-project'>
                 <NavbarContainer>
                     <NavbarTitle>
-                        <Link to={"/"}>
+                        <Link to={"/New-Event-deploy"}>
                             New <Event>Event</Event>
                         </Link>
                     </NavbarTitle>

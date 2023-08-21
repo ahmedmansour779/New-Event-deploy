@@ -1,7 +1,7 @@
 export default function links() {
     return [
         {
-            navLink: "/",
+            navLink: "/New-Event-deploy",
             navText: "Intro",
             active: true,
         },

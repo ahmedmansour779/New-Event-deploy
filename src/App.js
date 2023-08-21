@@ -18,7 +18,7 @@ function App() {
       <>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<><Home /></>} />
+            <Route path="/New-Event-deploy" element={<><Home /></>} />
             <Route path="/overView" element={<><NavBar /><OverView /></>} />
             <Route path="/speakers" element={<><NavBar /><CreativSpeakersComponent /></>} />
             <Route path="/programs" element={<><NavBar /><OurPrograms /></>} />
