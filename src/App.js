@@ -8,7 +8,6 @@ import NavBar from "./design-system/components/pages/Home/components/NavBar";
 import OverView from "./design-system/components/pages/Home/components/NavbarHome/OverView";
 import OurSponsorsHome from "./design-system/components/pages/Home/components/Our Sponsors/OurSponsorsHome";
 import OurPrograms from "./design-system/components/pages/Home/components/Our programs";
-import PageNotFound from "./design-system/components/pages/Home/components/PageNotFound/PageNotFound";
 import Register from "./design-system/components/pages/Home/components/Register";
 import Venue from "./design-system/components/pages/Home/components/venue/Venue";
 import Scroll from "./design-system/components/scroll to top/Scroll";
@@ -27,7 +26,6 @@ function App() {
             <Route path="/venue" element={<><NavBar /><Venue /></>} />
             <Route path="/sponsers" element={<><NavBar /><OurSponsorsHome /></>} />
             <Route path="/contact" element={<><NavBar /><CountactUs /></>} />
-            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>
       </>
